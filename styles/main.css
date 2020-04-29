@@ -1,0 +1,49 @@
+.watch, .watch__center, .watch__minutes, .watch__seconds {
+  border: 1px black solid;
+  box-sizing: border-box;
+  border-radius: 50%; }
+
+.watch__minutes, .watch__seconds, .watch__center {
+  position: absolute;
+  background-color: brown; }
+
+.watch__minutes, .watch__seconds {
+  -webkit-animation: timer 3600s infinite;
+          animation: timer 3600s infinite;
+  transform-origin: bottom;
+  left: 195px;
+  width: 10px; }
+
+.watch {
+  width: 402px;
+  height: 402px;
+  position: relative;
+  left: 50px;
+  background-color: pink; }
+  .watch__center {
+    width: 24px;
+    height: 24px;
+    top: 188px;
+    left: 188px; }
+  .watch__minutes {
+    height: 150px;
+    top: 55px; }
+  .watch__seconds {
+    height: 200px;
+    top: 0;
+    -webkit-animation-duration: 60s;
+            animation-duration: 60s; }
+
+@-webkit-keyframes timer {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@keyframes timer {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=main.css.map */
