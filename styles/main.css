@@ -8,8 +8,8 @@
   background-color: brown; }
 
 .watch__minutes, .watch__seconds {
-  -webkit-animation: timer 3600s infinite;
-          animation: timer 3600s infinite;
+  -webkit-animation: timer 3600s infinite linear;
+          animation: timer 3600s infinite linear;
   transform-origin: bottom;
   left: 196px;
   width: 10px; }
