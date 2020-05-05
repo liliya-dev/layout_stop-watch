@@ -3,11 +3,9 @@
   box-sizing: border-box;
   border-radius: 50%; }
 
-.watch__minutes, .watch__seconds, .watch__center {
-  position: absolute;
-  background-color: brown; }
-
 .watch__minutes, .watch__seconds {
+  position: absolute;
+  background-color: brown;
   -webkit-animation: timer 3600s infinite linear;
           animation: timer 3600s infinite linear;
   transform-origin: bottom;
@@ -21,6 +19,8 @@
   left: 50px;
   background-color: pink; }
   .watch__center {
+    position: absolute;
+    background-color: brown;
     width: 24px;
     height: 24px;
     top: 189px;
